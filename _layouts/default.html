@@ -6,25 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
-    <header class="masthead">
-      <nav role="navigation">
-        <ul class="nav nav-pills pull-right">
-          <li><a href="/">Resume</a></li>
-          <li><a href="/contact">Contact</a></li>
+    <header class="row-fluid">
+      <div class="span4 text-center">
+        <h2>Ethan Netland</h2>
+        <a href="http://www.github.com/enetland"><i class="icon-github-sign icon-2x"></i></a>
+        <a href="http://www.twitter.com/ethannetland"><i class="icon-twitter-sign icon-2x"></i></a>
+        <a href="http://www.facebook.com/enetland"><i class="icon-facebook-sign icon-2x"></i></a>
+        <a href="http://www.linkedin.com/pub/ethan-netland/41/a07/753"><i class="icon-linkedin-sign icon-2x"></i></a>
+      </div>
+      <div id="contact" class="span3 offset5">
+        <ul class="unstyled">
+          <li>
+            <abbr title="Email"><i class="icon-envelope-alt"></i></abbr>
+            <a href="mailto:enetland@gmail.com">enetland@gmail.com</a>
+          </li>
+          <li>
+            <abbr title="Local Address"><i class="icon-home"></i></abbr>
+            72 Alleghany St.<br/>
+            <i></i>Boston, Ma 02120
+          </li>
+          <li>
+            <abbr title="Phone"><i class="icon-phone"></i></abbr>
+            (207)-615-6972
+          </li>
         </ul>
-      </nav>
-      <h3>Ethan Netland</h3>
+      </div>
     </header>
     <hr>
-    <div class="row-fluid">
+    <div id="content">
       {{ content }}
     </div>
     <hr>
-    <footer class="footer">
-      This is where footer stuff goes (Social Media?)
+    <footer class="footer text-center">
+      <small class="muted">
+        Lovingly crafted with
+        <a href="http://www.jekyllrb.com/">Jekyll</a>,
+        <a href="http://twitter.github.io/bootstrap">Bootstrap</a>,
+        and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
+      </small>
     </footer>
   </div>
   <script src="http://code.jquery.com/jquery.js"></script>

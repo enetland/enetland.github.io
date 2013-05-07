@@ -3,6 +3,15 @@
   max-width: 700px;
   margin-top: 40px;
 }
+.org-icon
+{
+  width:40px;
+  height:40px;
+}
+#contact
+{
+  padding-top:10px;
+}
 /*body
 {
   background-color: rgb(25, 25, 25);
