@@ -7,9 +7,11 @@ layout: default
   <div class="span12 lead">
     <p>Here's the short version:
       I am a Software Developer, recently graduated from Northeastern University.
-      I am currently residing in Boston,
-      though I am more than willing to relocate in the interest of exciting projects
-      with interesting people. If you want to talk about jobs or anything else,
+      I am currently residing in Boston and working for a fantastic company called
+      <a href='http://www.clypd.com'>clypd</a>.
+      I am fascinated with the intersection to fechnology, entrepenuership, and design in the
+      startup scene. If you'd like to talk to me about what you are working on,
+      what I'm working on, or really anything else,
        <a href="mailto:enetland@gmail.com">drop me a line</a>.
      </p>
   </div>
@@ -47,17 +49,73 @@ layout: default
 </div>
 <h3>Work Experience</h3>
 <div class="row-fluid">
+  <div class="span1"><img src="assets/img/clypd.png" class="img-rounded org-icon" alt="Clypd"></div>
+  <div class="span10">
+    <h4><a href="http://www.clypd.com">clypd</a></h4>
+    <h5 class="muted">Software Engineer</h5>
+    <small>
+      <ul class="inline">
+        <li>Ruby</li>
+        <li>Rails</li>
+        <li>PostgreSQL</li>
+        <li>Resque</li>
+        <li>RSpec</li>
+        <li>Redis</li>
+        <li>Capistrano</li>
+        <li>Backbone</li>
+      </ul>
+    </small>
+    <p>
+      At clypd, I have adopted a generalist role with a
+      focus on the backend infrastructure which ingests, processes, and exposes
+      data for the rest of our services. Using Ruby and Resque, I write tasks
+      to import data from various partners and clients into our Postgres database.
+      I then manage writing Rails based APIs to expose this data to other services,
+      primarily our client UI. I also coordinate with
+      DevOps for weekly releases using Jenkins and Capistrano to deploy to Rackspace.
+      As a member of a small team, I have the luxury of jumping into new
+      technologies and projects regularly. Here are several of the other projects
+      I have worked on:
+      <ul>
+        <li>
+          I created the UI to display advertisement delivery information to
+          advertisers, suppliers, and internal administrators. The page allowed
+          completely dynamic filtering and grouping of a table of information,
+          as well as graphs using <a href="http://www.flotcharts.org/">flot</a>
+          to display various KPI for users. I later refactored this UI using
+          <a href="http://backbonejs.org/">Backbone.js</a> to move the display
+          logic client-side (the first component of our
+          UI to use a javascript MV* framework) and improve the user experience.
+        </li>
+        <li>
+          Developed integration with major strategic partner
+          <a href="http://www.clypd.com/invidi-and-clypd-form-strategic-tv-advertising-alliance/">Invidi</a>,
+          working with members of their development team to develop a client for their
+          API, allowing our backend to insert orders directly into their system.
+        </li>
+        <li>
+          Created an <a href="https://code.google.com/p/openrtb/">OpenRTB</a>
+          compliant bidding system in Ruby using Rails Metal and Redis to
+          quickly parse bid requests from our internal exchange, filter
+          advertisements based on several criteria, and render a JSON response.
+        </li>
+    </p>
+  </div>
+</div>
+<div class="row-fluid">
   <div class="span1"><img src="assets/img/TW.png" class="img-rounded org-icon" alt="TapWalk"></div>
   <div class="span10">
     <h4><a href="http://www.tapwalk.com">TapWalk</a></h4>
-    <h5 class="muted">Lead Rails Developer</h5>
+    <h5 class="muted">Rails Engineer</h5>
     <small>
       <ul class="inline">
+        <li>Ruby</li>
         <li>Rails</li>
         <li>Rspec</li>
         <li>AWS</li>
         <li>Heroku</li>
         <li>Git</li>
+        <li>PostgreSQL</li>
       </ul>
     </small>
     <p>
@@ -188,6 +246,7 @@ layout: default
     <ul>
       <li>Ruby</li>
       <li>Javascript</li>
+      <li>SQL (specifically Postgres)</li>
       <li>Python</li>
       <li>Java</li>
       <li>HTML</li>
@@ -202,11 +261,12 @@ layout: default
       <li>Ruby on Rails</li>
       <li>RSpec</li>
       <li>Git</li>
+      <li>Resque</li>
+      <li>Redis</li>
+      <li>Backbone</li>
       <li>Heroku</li>
       <li>AWS (S3/EC2)</li>
       <li>Subversion</li>
-      <li>Eclipse</li>
-      <li>Visual Studio</li>
     </ul>
   </div>
 </div>
